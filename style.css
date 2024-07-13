@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body
+{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header
+{
+    background-color: rgb(29, 6, 84);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    width:auto;
+    height: 60px;
+}
+
+.text-choice
+{
+    background-color: rgb(29, 6, 84);
+    border-radius: 1rem;
+    border: 3px solid yellow;
+    font-size: 2rem;
+    color: white;
+}
+
+.choices
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 1.5rem;
+
+}
+
+.choice
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover
+{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.comchoices
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 1.5rem;
+
+}
+
+.compchoice
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 20%;
+    border: 5px solid white;
+}
+
+img:hover
+{
+    border: 5px solid yellow;
+}
+
+
+
+.score-board
+{
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    gap: 1rem;
+    color: white;
+}
+
+#player, #comp
+{
+    font-size: 4rem;
+}
+
+.result
+{
+    margin-top: 50px;
+}
+#msg
+{
+    background-color: rgb(46, 43, 43);
+    border: 5px solid yellow;
+    color: white;
+    display: inline;
+    font-size: 2rem;
+    margin-top: 50px;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        height: 800px;
+        background-size: cover;
+        background-position: center;
+    }
+    .text-choice
+    {
+        font-size: 1.5rem;
+    }
+    #header
+    {
+        font-size: 1.7rem;
+        line-height: 40px;
+        height: 40%;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    #player, #comp
+    {
+        font-size: 2rem;
+    }
+    .score-board
+    {
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+    .score{
+        font-size: 1.5rem;
+    }
+    #msg
+    {
+        margin-top: 0%;
+        font-size: 1rem;
+    }
+  }

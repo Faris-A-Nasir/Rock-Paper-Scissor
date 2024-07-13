@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <div id="header">
+    Rock Paper Scissors
+    </div>
+    <div class="choices">
+        <div class="text-choice">
+            <p>Player choice</p>
+        </div>
+        <div class="choice"  id="rock">
+            <img src="rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="Paper.png" >
+        </div>
+        <div class="choice"  id="scissor">
+            <img src="Scissor.png" >
+        </div>
+    </div>
+    <div class="comchoices">
+        <div class="text-choice">
+            <p>Computer choice</p>
+        </div>
+        <div class="compchoice"  >
+            <img src="rock.png" class="compimg" id="rock1">
+        </div>
+        <div class="compchoice" >
+            <img src="Paper.png" class="compimg" id="paper1">
+        </div>
+        <div class="compchoice"  >
+            <img src="Scissor.png" class="compimg" id="scissor1">
+        </div>
+    </div>
+<div class="score-board">
+    <div class="score">
+        <p>Player Score: </p>
+        <p id="player">0</p>
+    </div>
+    <div class="score">
+        <p>Comp Score: </p>
+        <p id="comp">0</p>
+    </div>
+</div>
+<div class="result">
+    <p id="msg">Play your move</p>
+</div>
+</div>
+<script src="RPS.js"></script>
+</body>
+</html>
