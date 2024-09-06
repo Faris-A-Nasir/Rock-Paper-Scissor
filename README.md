@@ -26,4 +26,4 @@ Visual Indicators:
 Player choice and computer choice: Both are highlighted to show the selected options.
 Score display: Shows the current score for both the player and the computer.
 Result message: A message at the bottom indicates the winner of the round (e.g., "Player wins with paper over rock").
-Enjoy playing the game! download and play it.
+Enjoy playing the game! download and play it
